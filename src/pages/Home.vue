@@ -145,13 +145,61 @@
 
     <!-- Contact Section -->
     <section class="max-w-3xl mx-auto py-12 px-4" id="contact">
-      <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">Contact</h2>
-      <form class="flex flex-col space-y-4">
-        <input type="text" placeholder="Your Name" class="px-4 py-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white" />
-        <input type="email" placeholder="Your Email" class="px-4 py-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white" />
-        <textarea placeholder="Your Message" rows="4" class="px-4 py-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"></textarea>
-        <button type="submit" class="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Send Message</button>
-      </form>
+      <h2 class="text-2xl font-bold text-white mb-6">Contact Me</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Contact Info -->
+        <div class="space-y-4">
+          <h3 class="text-xl font-semibold text-cyan-400 mb-4">Get In Touch</h3>
+          <div class="space-y-3">
+            <div class="flex items-center space-x-3">
+              <svg class="w-6 h-6 max-w-[24px] max-h-[24px] text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+              </svg>
+              <span class="text-gray-300">Fitsum Teshome</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <svg class="w-6 h-6 max-w-[24px] max-h-[24px] text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+              <a href="mailto:teshfitsum834@gmail.com" class="text-gray-300 hover:text-cyan-400 transition">teshfitsum834@gmail.com</a>
+            </div>
+          </div>
+          
+          <!-- Social Links -->
+          <div class="pt-4">
+            <h4 class="text-lg font-semibold text-cyan-400 mb-3">Connect With Me</h4>
+            <div class="flex space-x-4">
+              <a href="https://github.com/FisumTeshome" target="_blank" class="text-gray-300 hover:text-white transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.305-5.466-1.334-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.018.005 2.045.138 3.003.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.624-5.475 5.921.43.372.823 1.102.823 2.222v3.293c0 .322.218.694.825.576C20.565 21.796 24 17.298 24 12c0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+              <a href="https://linkedin.com/in/fishchuna" target="_blank" class="text-gray-300 hover:text-blue-400 transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11.75 20h-3v-10h3v10zm-1.5-11.25c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.25 11.25h-3v-5.5c0-1.104-.896-2-2-2s-2 .896-2 2v5.5h-3v-10h3v1.354c.417-.646 1.184-1.354 2.25-1.354 1.657 0 3 1.343 3 3v7z"/>
+                </svg>
+              </a>
+              <a href="https://roboflow.com" target="_blank" class="text-gray-300 hover:text-blue-400 transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 32 32">
+                  <circle cx="16" cy="16" r="16" fill="currentColor"/>
+                  <path d="M16 6a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18.182A8.182 8.182 0 1 1 16 7.818a8.182 8.182 0 0 1 0 16.364z" fill="#00BFFF"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Simple Contact Form -->
+        <div class="space-y-4">
+          <h3 class="text-xl font-semibold text-cyan-400 mb-4">Send Message</h3>
+          <form class="space-y-4">
+            <input type="text" placeholder="Your Name" class="w-full px-4 py-2 rounded border border-gray-600 bg-gray-800 text-white placeholder-gray-400 focus:border-cyan-400 focus:outline-none transition" />
+            <input type="email" placeholder="Your Email" class="w-full px-4 py-2 rounded border border-gray-600 bg-gray-800 text-white placeholder-gray-400 focus:border-cyan-400 focus:outline-none transition" />
+            <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-2 rounded border border-gray-600 bg-gray-800 text-white placeholder-gray-400 focus:border-cyan-400 focus:outline-none transition resize-none"></textarea>
+            <button type="submit" class="w-full px-6 py-2 bg-cyan-500 text-white rounded hover:bg-cyan-600 transition font-medium">Send Message</button>
+          </form>
+        </div>
+      </div>
     </section>
   </div>
 </template>
