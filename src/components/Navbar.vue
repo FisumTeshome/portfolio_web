@@ -1,35 +1,57 @@
 <template>
-  <nav class="fixed top-0 left-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur z-50 shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between pr-[50px]">
-      <div class="text-2xl font-extrabold text-black dark:text-white">Portfolio.</div>
-      <div class="flex-1 flex justify-end items-center">
-        <ul class="flex items-center space-x-[32px] text-lg font-semibold list-none m-0 p-0">
-          <li>
-            <a href="#" class="px-2 py-1 rounded transition text-black dark:text-white hover:text-cyan-400">Home</a>
-          </li>
-          <li>
-            <a href="#about" class="px-2 py-1 rounded transition text-black dark:text-white hover:text-cyan-400">About</a>
-          </li>
-          <li>
-            <a href="#services" class="px-2 py-1 rounded transition text-black dark:text-white hover:text-cyan-400">Services</a>
-          </li>
-          <li>
-            <a href="#portfolio" class="px-2 py-1 rounded transition text-black dark:text-white hover:text-cyan-400">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact" class="px-2 py-1 rounded transition text-black dark:text-white hover:text-cyan-400">Contact</a>
-          </li>
-        </ul>
-        <!-- Dark/Light Mode Toggle Placeholder -->
-        <button class="ml-4 p-2 rounded bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-lg">
-          <span class="hidden dark:inline">🌙</span>
-          <span class="inline dark:hidden">☀️</span>
-        </button>
-      </div>
+  <header class="flex justify-between items-center p-6 bg-opacity-50 relative z-20">
+    <div class="text-white text-3xl font-bold">LOGO</div>
+    <!-- Mobile toggle button -->
+    <div class="md:hidden z-30">
+      <button type="button" 
+        class="block focus:outline-none"
+        @click="isMenuOpen = !isMenuOpen"
+      >
+        <span v-if="isMenuOpen" class="text-5xl">
+          <img src="https://img.icons8.com/ios-filled/100/ffffff/delete-sign.png" alt="close" width="50" height="50">
+        </span>
+        <span v-else class="text-5xl">
+          <img src="https://img.icons8.com/ios-filled/100/ffffff/menu--v6.png" alt="menu" width="50" height="50">
+        </span>
+      </button>
     </div>
-  </nav>
+
+    <!-- Desktop navbar links (always visible on md+) -->
+    <nav :class="['fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:relative md:bg-transparent md:flex md:justify-between md:flex-row',
+      isMenuOpen ? 'block':'hidden'
+    ]"
+    >
+      <ul class="flex flex-col items-center space-y-5 md:flex-row md:space-x-16 md:space-y-0">
+        <li v-for="item in Menu" :key="item.name">
+          <a :href="item.href"
+            class="block text-white transition-colors duration-200 hover:text-yellow-600 ease-linear text-2xl md:text-lg"
+            @click="scrollToSection(item.href)"
+          > 
+            {{ item.name }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 </template>
 
-<script setup lang="ts">
+<script setup>
+import { ref } from 'vue';
+const Menu = ref([
+  {name:'services', href:'#services'},
+  {name:'About Me',href:'#about'},
+  {name:'Skills',href:'#skills'},
+  {name:'Projects',href:'#projects'},
+  {name:'Testimonial',href:'#testimonial'},
+  {name:'contact',href:'#contact'},
+]);
+const isMenuOpen = ref(false)
+const scrollToSection = (href) => {
+  isMenuOpen.value = false;
+  const section = document.querySelector(href);
+  if(section){
+    section.scrollIntoView({behavior :'smooth'});
+  }
+}
 // Add dark/light mode logic here later
-</script> 
+</script>
