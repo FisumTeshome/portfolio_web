@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                <h3 class="pt-8 text-lg font-semibold uppercase text-tranparent bg-clip-text bg-gradient-to-r from-primary to-secondary lg:text-xl">
+                <h3 class="pt-8 text-lg font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary lg:text-xl">
                     {{ service.name }}
                 </h3>
                 </div>
@@ -44,7 +44,7 @@ const services = ref([
     },
         {
         id: 3,
-        icon: 'https://img.icons8.com/external-solid-design-circle/100/ffffff/external-Mobile-Development-digital-marketing-solid-design-circle.png',
+        icon: 'https://img.icons8.com/ios-filled/100/ffffff/development-skill.png',
         name: 'Mobile Development',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!'
     },
