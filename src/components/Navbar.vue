@@ -35,7 +35,7 @@
   </header>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue';
 const Menu = ref([
   {name:'services', href:'#services'},
