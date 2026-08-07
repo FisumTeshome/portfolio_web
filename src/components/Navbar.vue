@@ -39,7 +39,7 @@
     <transition name="drawer-slide">
       <aside
         v-if="isMenuOpen"
-        class="fixed right-0 top-0 z-50 flex h-full w-[85%] max-w-sm flex-col border-l border-white/10 bg-slate-950/95 p-5 shadow-2xl shadow-slate-950/50 backdrop-blur-xl md:hidden"
+        class="fixed right-0 top-0 z-50 flex h-full w-[85%] max-w-sm flex-col border-l border-white/10 bg-[#020817]/95 p-5 shadow-2xl shadow-slate-950/50 backdrop-blur-xl md:hidden"
       >
         <div class="flex items-center justify-between border-b border-white/10 pb-4">
           <div class="flex items-center gap-3">
