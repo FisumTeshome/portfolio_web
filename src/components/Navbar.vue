@@ -3,7 +3,7 @@
     <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
       <a href="#home" class="flex items-center gap-3">
         <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 via-blue-500 to-violet-600 text-sm font-black text-white shadow-lg shadow-cyan-500/30">
-          <span class="font-mono text-[0.7rem]">&lt;FT/&gt;</span>
+          <span class="font-mono text-[0.7rem]">FT</span>
         </div>
       </a>
 
@@ -39,7 +39,7 @@
     <transition name="drawer-slide">
       <aside
         v-if="isMenuOpen"
-        class="fixed right-0 top-0 z-50 flex h-full w-[85%] max-w-sm flex-col border-l border-white/10 bg-slate-950/95 p-5 shadow-2xl shadow-slate-950/50 backdrop-blur-xl md:hidden"
+        class="fixed right-0 top-0 z-50 flex h-full w-[85%] max-w-sm flex-col border-l border-white/10 bg-[#020817]/95 p-5 shadow-2xl shadow-slate-950/50 backdrop-blur-xl md:hidden"
       >
         <div class="flex items-center justify-between border-b border-white/10 pb-4">
           <div class="flex items-center gap-3">
