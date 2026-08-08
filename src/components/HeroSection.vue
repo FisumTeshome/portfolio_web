@@ -16,7 +16,7 @@
         </h1>
 
         <div class="mt-4 flex flex-wrap items-center gap-3 text-lg font-medium text-slate-200 sm:text-xl">
-          <span>Software Engineer</span>
+          <span>Computer Engineer</span>
           <span class="text-cyan-400">•</span>
           <span>Flutter Developer</span>
           <span class="text-cyan-400">•</span>
@@ -101,7 +101,7 @@
 
 <script setup>
 import profilePhoto from '../assets/fish.jpg'
-import cvUrl from '../assets/fitsumresume.pdf'
+import cvUrl from '../assets/fitsumTeshomeResume.pdf'
 
 const stats = [
   { value: '4+', label: 'Years' },
