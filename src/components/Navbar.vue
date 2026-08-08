@@ -3,7 +3,7 @@
     <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
       <a href="#home" class="flex items-center gap-3">
         <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 via-blue-500 to-violet-600 text-sm font-black text-white shadow-lg shadow-cyan-500/30">
-          <span class="font-mono text-[0.7rem]">&lt;FT/&gt;</span>
+          <span class="font-mono text-[0.7rem]">FT</span>
         </div>
       </a>
 
