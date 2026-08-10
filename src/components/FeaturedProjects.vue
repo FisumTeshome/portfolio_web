@@ -56,7 +56,9 @@
 </template>
 
 <script setup>
-import assistiveImage from '../assets/image2.jpg'
+import assistiveImage from '../assets/AsistiveMob.png'
+import erpImage from '../assets/StockErp.png'
+import studentImage from '../assets/image2.jpg'
 import musicImage from '../assets/musics.jpg'
 
 const projects = [
@@ -79,7 +81,7 @@ const projects = [
   {
     title: 'ERP Inventory Management Mobile Application',
     type: 'React Native / Enterprise',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80',
+    image: erpImage,
     tags: ['React Native', 'SQLite', 'REST API', 'Offline Sync'],
     description: 'A production enterprise mobile application developed at Dexel Software Development PLC for inventory and pharmacy management, designed to support business operations efficiently and reliably.',
     highlights: [
@@ -118,7 +120,7 @@ const projects = [
   {
     title: 'Student Management System',
     type: 'Full Stack',
-    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80',
+    image: studentImage,
     tags: ['React', 'Node.js', 'MySQL', 'Dashboard'],
     description: 'A student information system focusing on data management and operational workflows for academic institutions.',
     highlights: [
