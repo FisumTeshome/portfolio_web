@@ -29,6 +29,14 @@
 <script setup>
 const repos = [
   {
+    name: 'RecipeJoy',
+    language: 'Nuxt 3 / Go',
+    description: 'Full-stack food recipe & community platform with JWT auth, Go REST API, PostgreSQL, Hasura GraphQL, and Docker containerization.',
+    stars: '35',
+    updated: 'Recent',
+    link: 'https://github.com/FisumTeshome/Reciep_project'
+  },
+  {
     name: 'MusicManager',
     language: 'MERN',
     description: 'Personal music management web app with recommendations, CRUD workflows, and a responsive user experience.',
@@ -50,7 +58,7 @@ const repos = [
     description: 'Accessibility-focused mobile app for navigation assistance with computer vision and voice guidance.',
     stars: '31',
     updated: '3w',
-    link: 'https://github.com/FisumTeshome/StudentInfo'
+    link: 'https://github.com/FisumTeshome'
   }
 ]
 </script>

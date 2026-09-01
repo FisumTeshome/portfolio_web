@@ -56,12 +56,30 @@
 </template>
 
 <script setup>
+import recipejoyImage from '../assets/recipejoy.png'
 import assistiveImage from '../assets/AsistiveMob.png'
 import erpImage from '../assets/StockErp.png'
 import studentImage from '../assets/image2.jpg'
 import musicImage from '../assets/musics.jpg'
 
 const projects = [
+  {
+    title: 'RecipeJoy — Full-Stack Food Recipe & Community Platform',
+    type: 'Nuxt 3 + Go / Full-Stack',
+    image: recipejoyImage,
+    tags: ['Nuxt 3', 'Vue 3', 'Go (Golang)', 'PostgreSQL', 'Hasura', 'Docker', 'TailwindCSS'],
+    description: 'A modern, high-performance food recipe sharing platform enabling users to discover global recipes, publish custom dishes with dynamic ingredient lists, save favorites, rate recipes, and join community discussions.',
+    highlights: [
+      'Frontend: Nuxt 3, Vue 3, TypeScript, TailwindCSS, Dark Mode support.',
+      'Backend: REST API built with Go (Golang) and GORM ORM.',
+      'Data & GraphQL: PostgreSQL database integrated with Hasura GraphQL engine.',
+      'Security & UX: Persistent JWT authentication, client startup session validation, global route guards, and sanitized error handling.',
+      'DevOps: Fully containerized development environment using Docker & Docker Compose.'
+    ],
+    github: 'https://github.com/FisumTeshome/Reciep_project',
+    demo: 'https://reciep-project.vercel.app/',
+    contributions: []
+  },
   {
     title: 'Assistive Mobile App (Thesis)',
     type: 'AI + Mobile',
@@ -74,8 +92,8 @@ const projects = [
       'Real-time environmental awareness for safer movement.',
       'Built with a practical human-centered design and model deployment workflow.'
     ],
-    github: 'https://github.com/FisumTeshome/StudentInfo',
-    demo: '#',
+    github: 'https://github.com/FisumTeshome',
+    demo: 'https://github.com/FisumTeshome',
     contributions: []
   },
   {
@@ -90,8 +108,8 @@ const projects = [
       'Offline-first functionality with local SQLite storage and synchronization.',
       'Role-based access, employee management, branch management, and reporting tools.'
     ],
-    github: 'https://github.com/FisumTeshome/StudentInfo',
-    demo: '#',
+    github: 'https://github.com/FisumTeshome',
+    demo: 'https://github.com/FisumTeshome',
     contributions: [
       'Developed new mobile application features for real business operations.',
       'Improved UI/UX for responsive and user-friendly mobile interfaces.',
@@ -114,7 +132,7 @@ const projects = [
       'Shows end-to-end web application development skills.'
     ],
     github: 'https://github.com/FisumTeshome/MusicManager',
-    demo: 'https://music-manager-drab.vercel.app/',
+    demo: 'https://musicmanager-eta.vercel.app/',
     contributions: []
   },
   {
@@ -129,7 +147,7 @@ const projects = [
       'Improved understanding of application architecture and product thinking.'
     ],
     github: 'https://github.com/FisumTeshome/StudentInfo',
-    demo: '#',
+    demo: 'https://github.com/FisumTeshome/StudentInfo',
     contributions: []
   }
 ]
