@@ -26,7 +26,7 @@ const categories = [
   {
     title: 'Frontend',
     icon: '💻',
-    skills: ['Vue', 'React', 'Next.js', 'HTML', 'CSS', 'Tailwind', 'JavaScript', 'TypeScript']
+    skills: ['Vue', 'Nuxt 3', 'React', 'Next.js', 'HTML', 'CSS', 'Tailwind', 'JavaScript', 'TypeScript']
   },
   {
     title: 'Backend',
@@ -46,7 +46,7 @@ const categories = [
   {
     title: 'Databases',
     icon: '🗄️',
-    skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'SQLite']
+    skills: ['PostgreSQL', 'Hasura', 'MongoDB', 'MySQL', 'SQLite']
   },
   {
     title: 'DevOps',
