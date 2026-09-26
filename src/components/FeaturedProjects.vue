@@ -59,7 +59,7 @@
 import recipejoyImage from '../assets/recipejoy.png'
 import assistiveImage from '../assets/AsistiveMob.png'
 import erpImage from '../assets/StockErp.png'
-import studentImage from '../assets/image2.jpg'
+import studentImage from '../assets/school_management.png'
 import musicImage from '../assets/musics.jpg'
 
 const projects = [
@@ -136,18 +136,20 @@ const projects = [
     contributions: []
   },
   {
-    title: 'Student Management System',
-    type: 'Full Stack',
+    title: 'School Management App',
+    type: 'Full Stack / Deployed',
     image: studentImage,
-    tags: ['React', 'Node.js', 'MySQL', 'Dashboard'],
-    description: 'A student information system focusing on data management and operational workflows for academic institutions.',
+    tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Docker', 'JWT Auth', 'Vercel', 'Render'],
+    description: 'A fully deployed, production-ready school management platform with role-based access control for admins, teachers, and viewers. Supports student records, course enrollment, grades, attendance tracking, announcements, and real-time dashboard analytics.',
     highlights: [
-      'Built for robust data handling and institutional record management.',
-      'Developed with a modern UI and secure backend interactions.',
-      'Improved understanding of application architecture and product thinking.'
+      'Role-based authentication with JWT (HttpOnly cookies, SameSite=None for cross-domain deployment).',
+      'Modules: Students, Courses, Enrollments, Grades, Attendance, Teachers, Announcements & Analytics dashboard.',
+      'PostgreSQL database with a custom MySQL-to-Postgres query compatibility layer for zero-rewrite migration.',
+      'Frontend deployed on Vercel, backend on Render with a managed PostgreSQL database.',
+      'Fully containerized local development using Docker Compose with Postgres and Node.js services.'
     ],
     github: 'https://github.com/FisumTeshome/StudentInfo',
-    demo: 'https://github.com/FisumTeshome/StudentInfo',
+    demo: 'https://student-info-two.vercel.app/',
     contributions: []
   }
 ]
