@@ -2,7 +2,7 @@
   <section id="skills" class="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
     <div class="mb-14">
       <p class="text-sm font-medium uppercase tracking-[0.32em] text-cyan-300">Skills</p>
-      <h2 class="mt-4 text-3xl font-black text-white sm:text-4xl">Engineering across product, data, and delivery.</h2>
+      <h2 class="mt-4 text-3xl font-black text-white sm:text-4xl">Machine learning, AI systems, and full-stack product engineering.</h2>
     </div>
 
     <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
@@ -24,44 +24,44 @@
 <script setup>
 const categories = [
   {
-    title: 'Frontend',
-    icon: '💻',
-    skills: ['Vue', 'Nuxt 3', 'React', 'Next.js', 'HTML', 'CSS', 'Tailwind', 'JavaScript', 'TypeScript']
+    title: 'Machine Learning',
+    icon: '🧠',
+    skills: ['Python', 'Scikit-learn', 'PyTorch', 'TensorFlow', 'Model Training', 'Feature Engineering', 'Evaluation', 'Inference']
   },
   {
-    title: 'Backend',
-    icon: '⚙️',
-    skills: ['Node.js', 'Go', 'Python', 'Rust', 'REST', 'gRPC', 'JWT', 'APIs']
-  },
-  {
-    title: 'Mobile',
-    icon: '📱',
-    skills: ['Flutter', 'React Native', 'Firebase', 'SQLite', 'State Management', 'Animations']
-  },
-  {
-    title: 'AI',
+    title: 'AI & Computer Vision',
     icon: '🤖',
-    skills: ['Computer Vision', 'Deep Learning', 'CNN', 'YOLO', 'PyTorch', 'TensorFlow']
+    skills: ['Computer Vision', 'Deep Learning', 'CNN', 'YOLO', 'Image Processing', 'Object Detection', 'NLP', 'AI Solutions']
   },
   {
-    title: 'Databases',
-    icon: '🗄️',
-    skills: ['PostgreSQL', 'Hasura', 'MongoDB', 'MySQL', 'SQLite']
+    title: 'Data & Analytics',
+    icon: '📊',
+    skills: ['Pandas', 'NumPy', 'Data Cleaning', 'Visualization', 'EDA', 'SQL', 'Statistics', 'A/B Testing']
   },
   {
-    title: 'DevOps',
-    icon: '🧰',
-    skills: ['Docker', 'Git', 'Linux', 'GitHub Actions', 'CI/CD']
+    title: 'Mobile & Product',
+    icon: '📱',
+    skills: ['Flutter', 'React Native', 'Vue', 'JavaScript', 'TypeScript', 'Firebase', 'REST APIs', 'UI/UX']
   },
   {
-    title: 'Tools',
+    title: 'Backend & Systems',
+    icon: '⚙️',
+    skills: ['Node.js', 'Python', 'Go', 'APIs', 'Architecture', 'Auth', 'Database Design', 'Cloud Services']
+  },
+  {
+    title: 'MLOps & Deployment',
+    icon: '🚀',
+    skills: ['Docker', 'GitHub Actions', 'CI/CD', 'Model Deployment', 'Linux', 'Cloud', 'Monitoring', 'Automation']
+  },
+  {
+    title: 'Tools & Workflow',
     icon: '🛠️',
-    skills: ['VS Code', 'Figma', 'Postman', 'GitHub', 'Linux', 'Testing']
+    skills: ['VS Code', 'Git', 'Jupyter', 'Postman', 'Figma', 'Linux', 'Notebooks', 'Testing']
   },
   {
-    title: 'Soft Skills',
+    title: 'Professional Strengths',
     icon: '🤝',
-    skills: ['Teamwork', 'Mentoring', 'Communication', 'Problem Solving', 'Leadership']
+    skills: ['Problem Solving', 'Teamwork', 'Communication', 'Research', 'Documentation', 'Mentoring', 'Leadership']
   }
 ]
 </script>
