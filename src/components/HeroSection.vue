@@ -38,6 +38,9 @@
           <a :href="cvUrl" download="Fitsum-Teshome-CV.pdf" class="inline-flex items-center justify-center rounded-full border border-slate-700 bg-slate-900/70 px-6 py-3 text-sm font-semibold text-slate-100 transition hover:border-cyan-400/60 hover:text-cyan-300">
             Download CV
           </a>
+          <a :href="aiCvUrl" download="Fitsum-Teshome-AI-ML-CV.pdf" class="inline-flex items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/5 px-6 py-3 text-sm font-semibold text-cyan-200 transition hover:border-cyan-300 hover:bg-cyan-500/10">
+            Download AI/ML CV
+          </a>
           <a href="#contact" class="inline-flex items-center justify-center rounded-full border border-slate-700 bg-transparent px-6 py-3 text-sm font-semibold text-slate-100 transition hover:border-violet-500 hover:text-violet-300">
             Contact Me
           </a>
@@ -102,6 +105,7 @@
 <script setup>
 import profilePhoto from '../assets/fish.jpg'
 import cvUrl from '../assets/fitsumTeshomeResume.pdf'
+import aiCvUrl from '../assets/FitsumTeshomeAIMl (2).pdf'
 
 const stats = [
   { value: '4+', label: 'Years' },

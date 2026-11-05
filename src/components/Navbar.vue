@@ -75,6 +75,9 @@
           <a :href="cvUrl" download="Fitsum-Teshome-CV.pdf" class="inline-flex w-full items-center justify-center rounded-full border border-slate-700 bg-slate-900/70 px-4 py-3 text-sm font-semibold text-slate-100">
             Download CV
           </a>
+          <a :href="aiCvUrl" download="Fitsum-Teshome-AI-ML-CV.pdf" class="inline-flex w-full items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-500/5 px-4 py-3 text-sm font-semibold text-cyan-200">
+            Download AI/ML CV
+          </a>
         </div>
       </aside>
     </transition>
@@ -84,6 +87,7 @@
 <script setup>
 import { ref } from 'vue'
 import cvUrl from '../assets/fitsumresume.pdf'
+import aiCvUrl from '../assets/FitsumTeshomeAIMl (2).pdf'
 
 const menuItems = [
   { label: 'Experience', href: '#experience', icon: '💼' },
